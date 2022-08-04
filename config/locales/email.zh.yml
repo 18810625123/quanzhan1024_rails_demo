@@ -1,0 +1,77 @@
+zh:
+  email:
+    shared:
+      head: "亲爱的用户："
+      company_name: "AI开发平台"
+      welcome: "欢迎使用AI开发平台！"
+      footer1: "敬上"
+      footer2: "AI开发平台团队"
+      footer3: "© 2020 xyunai.com  All Rights Reserved."
+    registration_succeeded_notify:
+      subject: "[AI开发平台] 账号创建成功"
+    email_verification_code:
+      subject: "[AI开发平台] 邮件验证码"
+      title: "邮件验证码"
+      line1: "您的验证码为"
+      line2: "它创建于 %{operation_time} 验证码30分钟内有效"
+      line3: "请勿将验证码泄露给任何人。"
+    email_warning:
+      subject: "[AI开发平台] 邮件验证码已失效"
+      title: "注意! 您的邮件验证码已失效"
+      line1: "由于您多次输入错误的验证码，本次验证码已失效。"
+      line2: "如果此次登录不是您本人操作，为了确保您的账号安全，请尽快修改您的登录密码。"
+    confirmation_instructions:
+      title: "请您进行账号激活"
+      line1: "请点击如下按钮，验证您的邮件地址。"
+      line2: "验证邮箱"
+      line3: "如果点击按钮无效，请尝试将下面的链接复制并粘贴到web浏览器的地址栏中。"
+    password_change:
+      title: "登录密码已重置"
+      line1: "您的登录密码已重置成功。如果此次不是您本人操作，请尽快联系AI开发平台官方团队。"
+    reset_password_instructions:
+      title: "找回密码"
+      line1: "我们已收到您找回AI开发平台账户密码的请求。为确认此次操作，请您点击如下按钮。如果您未发起重置请求，请忽略此封邮件。"
+      line2: "重置密码"
+      line3: "如果点击按钮无效，请尝试将下面的链接复制并粘贴到Web浏览器的地址栏中。"
+      line4: "为了确保您的账号安全，此链接仅限使用一次，30分钟内有效。"
+      line5: "如果此次不是您本人操作，请尽快联系AI开发平台官方团队。"
+    login_succeeded:
+      subject: "[AI开发平台] 登录成功"
+      title: "您已成功登录AI开发平台"
+      line1: "您已于 %{operation_time} 成功登录AI开发平台。如果此次登录不是您本人操作，为了确保您的账号安全，请尽快修改您的登录密码。"
+    kyc_callback_succeeded_notify:
+      subject: "[AI开发平台] 身份认证已通过"
+      title: "身份认证已通过"
+      line1: "恭喜！"
+      line2: "您的身份认证已经通过。"
+    kyc_callback_failed_notify:
+      subject: "[AI开发平台] 身份认证未通过"
+      title: "身份认证被拒绝"
+      line1: "很抱歉，您的身份认证已被拒绝。"
+      line2: "请您登录官网www.xyunai.com，及时修改信息并重新进行身份验证。"
+    account_lock_notify:
+      subject: "[AI开发平台] 账号已被锁定"
+      title: "您的账号已被锁定"
+      line1: "抱歉，由于短时间内多次错误登录，您的账号已被锁定。"
+      line2: "您的账号将于%{ACCOUNT_AUTO_UNLOCK_MINUTE}小时后解锁。"
+    email_registration_code:
+      subject: "[AI开发平台] 注册验证码"
+      title: "注册验证码"
+      line1: "您的验证码为"
+      line2: "它创建于 %{created_at} 验证码30分钟内有效"
+      line3: "请勿将验证码泄露给任何人。"
+    reset_password_code:
+      subject: '[AI开发平台]找回密码验证码'
+      title: 找回密码验证码
+      line1: 您的验证码为
+      line2: 它创建于 %{operation_time} 验证码30分钟内有效
+      line3: 请勿将验证码泄露给任何人。
+    partner_active_success:
+      subject: '[AI开发平台]恭喜您成为AI开发平台代理'
+      title: "恭喜您成为AI开发平台代理"
+      line1: "感谢您注册AI开发平台代理后台。我们为您准备了成熟的推广工具。请登录系统查看可使用的工具以及您当前的返佣比例。"
+      line2_1: "代理后台链接："
+      line2_2: "用户名："
+      line2_3_1: "密码："
+      line2_3_2: "与主站密码相同"
+      line3: "您还可以随时发送邮箱至support@AI开发平台.zendesk.com。我们的相关负责人竭诚为您解答任何问题。"

@@ -1,0 +1,22 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  pool: <%= ENV.fetch('RAILS_MAX_THREADS', 16) %>
+  host: <%= ENV.fetch('DATABASE_HOST', 'localhost') %>
+  port: <%= ENV.fetch('DATABASE_PORT', 3306) %>
+  username: <%= ENV.fetch('DATABASE_USER', 'root') %>
+  password: <%= ENV.fetch('DATABASE_PASSWORD', '') %>
+
+development:
+  <<: *default
+  database: quanzhan1024_demo_dev
+
+test:
+  <<: *default
+  database: quanzhan1024_demo_test
+
+production:
+  <<: *default
+  pool: <%= ENV['DATABASE_POOL'] || (ENV.fetch('RAILS_MAX_THREADS') { 16 }) %>
+  database: quanzhan1024_demo_production

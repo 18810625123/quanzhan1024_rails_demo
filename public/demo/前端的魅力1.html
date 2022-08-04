@@ -1,0 +1,47 @@
+<html>
+<!-- 头部信息 -->
+<head>
+    <title>前端的魅力1</title>
+    <meta charset="utf-8">
+    <script src="https://lib.baomitu.com/echarts/5.0.2/echarts.common.js"></script>
+</head>
+
+<div id="1" style="width:500px;height:500px;"></div>
+<script>
+    var chartDom = document.getElementById('1');
+    echarts.init(chartDom).setOption({
+        title: {
+            text: '某创业公司技术部门岗位人员',
+            subtext: '人数情况',
+            left: 'center'
+        },
+        tooltip: {
+            trigger: 'item'
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left'
+        },
+        series: [
+            {
+                type: 'pie',
+                radius: ['40%', '70%'],
+                avoidLabelOverlap: false,
+                itemStyle: {
+                    borderRadius: 10,
+                    borderColor: '#fff',
+                    borderWidth: 2
+                },
+                data: [
+                    {value: 6, name: '前端工程师'},
+                    {value: 10, name: '后端工程师'},
+                    {value: 2, name: '全栈工程师'},
+                    {value: 2, name: '算法工程师'},
+                    {value: 4, name: '测试工程师'},
+                    {value: 1, name: '运维工程师'},
+                ],
+            }
+        ]
+    });
+</script>
+</html>

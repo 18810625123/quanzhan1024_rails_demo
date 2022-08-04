@@ -1,0 +1,15 @@
+.git
+.gitignore
+.idea
+Gemfile.lock
+Dockerfile
+.dockerignore
+ci
+.travis.yml
+.ruby-version
+.rspec
+.DS_Store
+*.md
+docs
+tmp
+log

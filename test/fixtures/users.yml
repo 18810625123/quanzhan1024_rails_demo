@@ -1,0 +1,56 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id                    :bigint           not null, primary key
+#  uid                   :string(20)       not null
+#  phone                 :string(11)
+#  unionid               :string(100)
+#  openid                :string(100)
+#  email                 :string(50)
+#  fans_count            :integer          default(0), not null
+#  cares_count           :integer          default(0), not null
+#  order_count           :integer          default(0), not null
+#  like_count            :integer          default(0), not null
+#  not_read_count        :integer          default(0), not null
+#  invite_code           :string(6)
+#  invite_user_id        :integer          default(0)
+#  invite_share_log_id   :integer          default(0), not null
+#  nick_name             :string(20)       default(""), not null
+#  info                  :string(25)       default("一行的简介"), not null
+#  info_long             :string(200)      default("多行的简介"), not null
+#  current_professional  :string(200)      default(""), not null
+#  current_annual_income :integer          default(0), not null
+#  expect_professional   :string(200)      default(""), not null
+#  expect_annual_income  :integer          default(0), not null
+#  head_img              :string(500)      default("https://img.177weilai.com/default/head1.png"), not null
+#  bg_img                :string(500)      default("https://img.177weilai.com/default/bg1.png"), not null
+#  interests             :string(200)      default(""), not null
+#  name                  :string(30)       default(""), not null
+#  age                   :integer          default(0), not null
+#  birthday              :string(30)       default(""), not null
+#  sex                   :integer          default(0), not null
+#  country               :string(30)       default(""), not null
+#  province              :string(30)       default(""), not null
+#  province_code         :bigint           default(0), not null
+#  city                  :string(30)       default(""), not null
+#  city_code             :bigint           default(0), not null
+#  area                  :string(30)       default(""), not null
+#  area_code             :bigint           default(0), not null
+#  address               :string(30)       default(""), not null
+#  locked_at             :datetime
+#  lock_state            :integer          default(0), not null
+#  state                 :integer          default(0), not null
+#  role                  :integer          default(0), not null
+#  level                 :integer          default(0), not null
+#  exp                   :integer          default(0), not null
+#  score                 :decimal(10, 2)   default(0.0), not null
+#  created_at            :datetime         not null
+#  updated_at            :datetime         not null
+#
+
+one:
+  nick_name: MyString
+
+two:
+  nick_name: MyString
