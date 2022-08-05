@@ -26,6 +26,7 @@ gem 'grape-swagger'
 gem 'grape-swagger-entity'
 gem 'aasm'
 gem 'http'
+gem 'tzinfo-data'
 gem 'validate_url'
 # Pusher support
 gem 'pusher'

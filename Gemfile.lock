@@ -120,6 +120,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.14.0)
       faraday (>= 0.7.4, < 1.0)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x86-mingw32)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -225,6 +226,8 @@ GEM
       timeout
     netrc (0.11.0)
     nio4r (2.5.8)
+    nokogiri (1.13.6-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.13.6-x86-mingw32)
       racc (~> 1.4)
     phonelib (0.6.58)
@@ -302,6 +305,11 @@ GEM
     regexp_parser (2.5.0)
     reline (0.3.1)
       io-console (~> 0.5)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x86-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -369,6 +377,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
+    unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     useragent (0.16.10)
     validate_url (1.0.15)
@@ -392,6 +401,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86-mingw32
 
 DEPENDENCIES
